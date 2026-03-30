@@ -51,6 +51,7 @@ The DSST model demonstrated strong performance on both datasets:
 
 
 
+
 ## HanChuan Classification Results:
 
 <img width="1200" height="1000" alt="image" src="https://github.com/user-attachments/assets/e65f83d2-6f72-43df-96b0-d81ee65b8305" />
@@ -85,7 +86,11 @@ The DSST model demonstrated strong performance on both datasets:
     *   Place `PaviaU.mat`, `PaviaU_gt.mat`, `WHU_Hi_HanChuan.mat`, and `WHU_Hi_HanChuan_gt.mat` into a directory named `diffFormer` in your Google Drive's root, or ensure they are accessible at the `DATA_PATH` specified in `train.py` (default: `/content/drive/MyDrive/diffFormer/`).
     *   The `train.py` script includes logic to copy these files to a local `/content/DiffFormer/HSI/` directory for faster access if running in a Colab-like environment.
 
+## Acknowledgement
+This implementation is based on the Deformer architecture proposed in the original paper by the authors. This repository is an experimental reproduction for learning and research purposes.
+
 ### Execution
 To run the training and evaluation for both datasets, execute the `train.py` script:
 ```bash
 python train.py
+
